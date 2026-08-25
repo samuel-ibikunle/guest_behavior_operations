@@ -216,12 +216,23 @@ The date dimension was also marked as Power BI's official Date Table.
 
 ---
 
-# Key DAX Measures
+# DAX & Calculated Metrics
 
 A dedicated `_Measures` table was created to organize the main business calculations.
 
-## Total Bookings
+Custom DAX measures were created for:
 
-```DAX
-Total Bookings =
-COUNTROWS(fact_bookings)
+- Total and completed bookings
+- Canceled bookings
+- Cancellation rate
+- Gross booking value
+- Estimated realized revenue
+- Canceled booking value
+- Realized ADR proxy
+- Average booking ADR
+- Average length of stay
+- Average lead time
+- Repeat guest rate
+- Room change rate
+- Average party size
+- Average special requests
