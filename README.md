@@ -236,3 +236,8 @@ Custom DAX measures were created for:
 - Room change rate
 - Average party size
 - Average special requests
+## AI Assistance
+
+ChatGPT was used as a development assistant for Power BI, including guidance on Power Query transformations, star-schema design, and DAX measures.
+
+Final modeling decisions, validation, and business conclusions were reviewed and completed by me.
